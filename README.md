@@ -1,7 +1,5 @@
 # HOS-MAKE v0.5.0 - AI-Driven Code Encryption System
 
-[中文版本](#hos-make-ai驱动的代码加密系统)
-
 HOS-MAKE (Honestly Of Selfish) is an AI-driven personalized code encryption system designed to "selfishly" protect developers' code. It supports multiple programming languages and provides comprehensive code obfuscation and runtime protection.
 
 ## Core Features
@@ -16,7 +14,7 @@ HOS-MAKE (Honestly Of Selfish) is an AI-driven personalized code encryption syst
 - **Polymorphic Obfuscation**: Advanced data obfuscation techniques
 - **Performance Optimization**: Caching and efficient algorithms for large codebases
 
-## v1.0 Features - Python Code Protection
+## v0.5.0 Features - Python Code Protection
 
 ### Data Obfuscation
 - **Constant Splitting**: Splits large constants into multiple smaller values
@@ -257,13 +255,7 @@ for root, _, files in os.walk(input_dir):
             transform_file(input_path, output_path, strategy)
 ```
 
-## Roadmap (Completed)
 
-- ✅ **v1.0**: Python code protection, basic obfuscation features
-- ✅ **v2.0**: C/C++ support, based on LLVM IR-level obfuscation
-- ✅ **v3.0**: Rust/Go support
-- ✅ **v4.0**: Android NDK/ARM support
-- ✅ **v5.0**: WASM protection
 
 ## Contribution
 
@@ -272,6 +264,7 @@ Contributions, issues, and feature requests are welcome!
 ## License
 
 [MIT License](LICENSE)
+
 
 
 
