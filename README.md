@@ -14,23 +14,26 @@ HOS (Honestly Of Selfish) is an AI-driven personalized code encryption system de
 
 ## System Architecture
 
-```
-                ┌────────────────────┐
-                │   HOS AI Engine    │
-                │ Obfuscation Strategy Generator │
-                └─────────┬──────────┘
-                          │
-        ┌─────────────────┼──────────────────┐
-        │                 │                  │
- ┌────────────┐   ┌──────────────┐   ┌──────────────┐
- │ Code Analysis Module │   │ Obfuscation Strategy Planner │   │ Performance Evaluation Predictor │
- └──────┬─────┘   └──────┬───────┘   └──────┬───────┘
-        │                 │                  │
-        └────────────┬────┴──────────────┬──┘
-                     │                   │
-               ┌──────────────┐   ┌──────────────┐
-               │ Code Transformation Engine │   │ Runtime Protection Layer │
-               └──────────────┘   └──────────────┘
+```mermaid
+graph TD
+    A[HOS AI Engine<br/>Obfuscation Strategy Generator]
+
+    A --> B[Code Analysis Module]
+    A --> C[Obfuscation Strategy Planner]
+    A --> D[Performance Evaluation Predictor]
+
+    B --> E
+    C --> E
+    D --> E
+
+    E[Code Transformation Engine]
+    E --> F[Runtime Protection Layer]
+
+    subgraph " "
+        B
+        C
+        D
+    end
 ```
 
 ## Quick Start
@@ -113,5 +116,6 @@ Contributions, issues, and feature requests are welcome!
 ## License
 
 [MIT License](LICENSE)
+
 
 
